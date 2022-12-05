@@ -3,14 +3,17 @@
 This repository is for storing crossplane composite resource definitions, compositions and claim files.
 
 It contains folder for each resource type and its files within each of the resource type folder.
-# Prerequisites
+# Prerequisites in your machine
 
-You need an IAM access key pair, AWS CLI, bash, kubectl, helm and crossplane in your machine.
+* AWS CLI
+* IAM access key pair
+* GitBash
+* Kubernetes CLI (kubectl)
+* Helm CLI
+* CLI for Amazon EKS (eksctl)
+* Crossplane CLI
 # For AWS CLI
-Run below command in PowerShell to install AWS CLI. Click [here](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) for the latest AWS CLI release
-```console
-https://awscli.amazonaws.com/AWSCLIV2.msi
-```
+Click [here](https://awscli.amazonaws.com/AWSCLIV2.msi) to download AWS CLI and then install it. Click [here](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) for the latest AWS CLI release
 
 Run below command to set up AWS CLI installation
 ```console
