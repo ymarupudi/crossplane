@@ -15,10 +15,12 @@ It contains folder for each resource type and its files within each of the resou
 # For AWS CLI
 Click [here](https://awscli.amazonaws.com/AWSCLIV2.msi) to download AWS CLI and then install it. Click [here](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) for the latest AWS CLI release
 
-Run below command to set up AWS CLI installation
+Run below command to configure AWS CLI
 ```console
 aws configure
 ```
+When you enter above command, the AWS CLI prompts you for four pieces of information:
+
 <b>AWS Access Key ID [None]:</b> ENTER-YOUR-ACCESS-KEY-ID
 
 <b>AWS Secret Access Key [None]:</b> ENTER-YOUR-SECRET-ACCESS-KEY
